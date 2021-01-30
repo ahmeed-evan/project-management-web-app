@@ -52,14 +52,18 @@
 
 <script>
 export default {
+<<<<<<< HEAD
   name: "Dashboard",
   components: {},
 
+=======
+>>>>>>> ee6ab29e4a4231d0b7289fe05ac99d402932325c
   data() {
     return {
       projects: [
         {
           title: "Design a new website",
+<<<<<<< HEAD
           person: "Tanvir",
           due: "10th jan 2021",
           status: "ongoing",
@@ -81,6 +85,37 @@ export default {
           person: "Mou",
           due: "7th jan 2021",
           status: "completed",
+=======
+          person: "Evan",
+          due: "1st Jan 2019",
+          status: "ongoing",
+          content:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consequuntur eos eligendi illum minima adipisci deleniti, dicta mollitia enim explicabo fugiat quidem ducimus praesentium voluptates porro molestias non sequi animi!",
+        },
+        {
+          title: "Code up the homepage",
+          person: "tanvir",
+          due: "10th Jan 2019",
+          status: "complete",
+          content:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consequuntur eos eligendi illum minima adipisci deleniti, dicta mollitia enim explicabo fugiat quidem ducimus praesentium voluptates porro molestias non sequi animi!",
+        },
+        {
+          title: "Design video thumbnails",
+          person: "Asif",
+          due: "20th Dec 2018",
+          status: "complete",
+          content:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consequuntur eos eligendi illum minima adipisci deleniti, dicta mollitia enim explicabo fugiat quidem ducimus praesentium voluptates porro molestias non sequi animi!",
+        },
+        {
+          title: "Create a community forum",
+          person: "Mou",
+          due: "20th Oct 2018",
+          status: "overdue",
+          content:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consequuntur eos eligendi illum minima adipisci deleniti, dicta mollitia enim explicabo fugiat quidem ducimus praesentium voluptates porro molestias non sequi animi!",
+>>>>>>> ee6ab29e4a4231d0b7289fe05ac99d402932325c
         },
       ],
     };
@@ -92,6 +127,7 @@ export default {
   },
 };
 </script>
+<<<<<<< HEAD
 <style scoped>
 .project.completed {
   border-left: 4px solid lightgreen;
@@ -110,5 +146,26 @@ export default {
 }
 .v-chip.v-chip--no-color.theme--light.overdue {
   background: tomato;
+=======
+
+<style>
+.project.complete {
+  border-left: 4px solid #3cd1c2;
+}
+.project.ongoing {
+  border-left: 4px solid #ffaa2c;
+}
+.project.overdue {
+  border-left: 4px solid #f83e70;
+}
+.v-chip.v-chip--no-color.theme--light.complete {
+  background: #3cd1c2;
+}
+.v-chip.v-chip--no-color.theme--light.ongoing {
+  background: #ffaa2c;
+}
+.v-chip.v-chip--no-color.theme--light.overdue {
+  background: #f83e70;
+>>>>>>> ee6ab29e4a4231d0b7289fe05ac99d402932325c
 }
 </style>
