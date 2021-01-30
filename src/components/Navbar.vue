@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <v-app-bar flat app class="indigo lighten-4">
+    <v-app-bar app class="indigo lighten-4">
       <v-app-bar-nav-icon
         @click="drawer = !drawer"
         class="grey--text"
